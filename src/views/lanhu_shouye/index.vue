@@ -1,7 +1,8 @@
 <template>
   <div class="page flex-col">
+    <div style="height:51px"></div>
     <div class="box_1 flex-col">
-      <div class="group_1 flex-row">
+      <div class="group_1 flex-row center-item">
         <img
           class="image_1"
           referrerpolicy="no-referrer"
@@ -14,8 +15,8 @@
         <div class="text-wrapper_1 flex-col"><span class="text_5">登录</span></div>
         <div class="text-wrapper_2 flex-col"><span class="text_6">注册</span></div>
       </div>
-      <div class="group_2 flex-row justify-between">
-        <div class="box_2 flex-col justify-between">
+      <div class="group_2 flex-row justify-between center-item">
+        <div class="box_2 flex-col justify-between ">
           <div class="text-wrapper_3">
             <span class="text_7">让</span>
             <span class="text_8">笔记</span>
@@ -31,35 +32,38 @@
             <br />
             ·&nbsp;PDF阅读助力个人与团队构建高效的知识系统
           </span>
+
+           <div class="group_3 flex-row justify-between">
+            <div class="group_4 flex-row">
+              <div class="image-text_1 flex-row justify-between">
+                <img
+                  class="label_1"
+                  referrerpolicy="no-referrer"
+                  src="./assets/img/SketchPngdb7d8ee97b465d10531a7b9a6295e7f829c13b83879aa76b139e04c44edf9675.png"
+                />
+                <span class="text-group_1">开始注册</span>
+              </div>
+            </div>
+            <div class="group_5 flex-row">
+              <div class="image-text_2 flex-row justify-between">
+                <img
+                  class="label_2"
+                  referrerpolicy="no-referrer"
+                  src="./assets/img/SketchPng549150edb39248e89729f2203af0ba0175b292928380b7693d346ed1b0f55d49.png"
+                />
+                <span class="text-group_2">立即下载</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <img
+        
+       
+      </div>
+      <img
           class="image_2"
           referrerpolicy="no-referrer"
           src="./assets/img/SketchPng5251923674fc8951153d1fd5b7dd66d9d19f7101666e8b0ac181a1d323f83001.png"
         />
-      </div>
-      <div class="group_3 flex-row justify-between">
-        <div class="group_4 flex-row">
-          <div class="image-text_1 flex-row justify-between">
-            <img
-              class="label_1"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPngdb7d8ee97b465d10531a7b9a6295e7f829c13b83879aa76b139e04c44edf9675.png"
-            />
-            <span class="text-group_1">开始注册</span>
-          </div>
-        </div>
-        <div class="group_5 flex-row">
-          <div class="image-text_2 flex-row justify-between">
-            <img
-              class="label_2"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng549150edb39248e89729f2203af0ba0175b292928380b7693d346ed1b0f55d49.png"
-            />
-            <span class="text-group_2">立即下载</span>
-          </div>
-        </div>
-      </div>
       <img
         class="image_3"
         referrerpolicy="no-referrer"
@@ -68,89 +72,126 @@
       <div class="group_6 flex-col"></div>
     </div>
     <div class="box_3 flex-col">
-      <div class="text-wrapper_4">
-        <span class="text_10">易于使用</span>
-        <span class="text_11">且功能强大</span>
-      </div>
-      <div class="text-wrapper_5 flex-row">
-        <span class="text_12">模块化笔记</span>
-        <span class="text_13">多维表</span>
-        <span class="text_14">任务</span>
-        <span class="text_15">模版</span>
-        <span class="text_16">站点</span>
-      </div>
-      <div class="box_4 flex-col"><div class="box_5 flex-col"></div></div>
-      <div class="text-group_3 flex-col justify-between">
-        <span class="text_17">模块化笔记</span>
-        <span class="text_18">一键插入文字、表格.代码、音视频、网页内容。满足多场采创作需</span>
-      </div>
-      <div class="box_6 flex-col"></div>
-      <div class="text-wrapper_6">
-        <span class="text_19">独一无二</span>
-        <span class="text_20">的手写体验</span>
-      </div>
-      <div class="text-wrapper_7 flex-row justify-between">
-        <span class="text_21">手写笔记</span>
-        <span class="text_22">纸张</span>
-        <span class="text_23">工具</span>
-        <span class="text_24">书写</span>
-        <span class="text_25">画图</span>
-      </div>
-      <div class="box_7 flex-col"><div class="box_8 flex-col"></div></div>
-      <div class="box_9 flex-row">
-        <div class="text-wrapper_8 flex-col justify-between">
-          <span class="text_26">手写笔记</span>
-          <span class="text_27">支持流程手写，让记录不再受限于键盘和线性输入</span>
+      <div>
+        <div style="height: 150px;"></div>
+        <div class="text-wrapper_4 center-item">
+          <span class="text_10">易于使用</span>
+          <span class="text_11">且功能强大</span>
         </div>
-        <div class="group_7 flex-col"></div>
+        <div style="height: 80px;"></div>
+        <div class="text-wrapper_5 flex-row center-item">
+          <!-- <van-tabs v-model="active">
+            <van-tab title="模块化笔记"  class="text_12 ac">模块化笔记</van-tab>
+            <van-tab title="多维表">多维表</van-tab>
+            <van-tab title="任务">任务</van-tab>
+            <van-tab title="模版">模版</van-tab>
+            <van-tab title="站点">站点</van-tab>
+          </van-tabs> -->
+          <span class="text_12">模块化笔记</span>
+          <span class="text_13">多维表</span>
+          <span class="text_14">任务</span>
+          <span class="text_15">模版</span>
+          <span class="text_16">站点</span>
+        </div>
+        <div style="height: 80px;"></div>
+        <div class="box_4 flex-col center-item"><div class="box_5 flex-col"></div></div>
+        <div style="height: 40px;"></div>
+        <div class="text-group_3 flex-col justify-between center-item">
+          <span class="text_17">模块化笔记</span>
+          <span class="text_18">一键插入文字、表格.代码、音视频、网页内容。满足多场采创作需</span>
+        </div>
+        <div style="height: 80px;"></div>
+        <div class="box_6 flex-col center-item center-item"></div>
       </div>
-      <div class="text-wrapper_9">
-        <span class="text_28">一起思维发散，</span>
-        <span class="text_29">打破页面限制</span>
-      </div>
-      <div class="text-wrapper_10 flex-row justify-between">
-        <span class="text_30">白板页面</span>
-        <span class="text_31">书写</span>
-        <span class="text_32">文字</span>
-        <span class="text_33">图片</span>
-        <span class="text_34">协同</span>
-      </div>
-      <div class="box_10 flex-col"><div class="section_1 flex-col"></div></div>
-      <span class="text_35">白板页面</span>
-      <span class="text_36">手绘直线、箭头、方框圆形，自动识别为规范图形，助你轻松绘制结构图、流程图和草图。</span>
-      <div class="box_11 flex-col"></div>
-      <div class="box_12 flex-row">
-        <div class="group_8 flex-col">
-          <div class="text-wrapper_11">
-            <span class="text_37">AI&nbsp;也能个性化</span>
-            <span class="text_38">，自选模型，更懂你</span>
+      <div>
+        <div style="height: 150px;"></div>
+        <div class="text-wrapper_6 center-item">
+          <span class="text_19">独一无二</span>
+          <span class="text_20">的手写体验</span>
+        </div>
+        <div style="height: 100px;"></div>
+        <div class="text-wrapper_7 flex-row justify-between center-item">
+          <span class="text_21">手写笔记</span>
+          <span class="text_22">纸张</span>
+          <span class="text_23">工具</span>
+          <span class="text_24">书写</span>
+          <span class="text_25">画图</span>
+        </div>
+        <div class="box_7 flex-col center-item"><div class="box_8 flex-col"></div></div>
+        <div class="box_9 flex-row center-item">
+          <div class="text-wrapper_8 flex-col justify-between center-item">
+            <span class="text_26 center-item">手写笔记</span>
+            <span class="text_27 center-item">支持流程手写，让记录不再受限于键盘和线性输入</span>
           </div>
-          <div class="text-wrapper_12 flex-row justify-between">
-            <span class="text_39">书写</span>
-            <span class="text_40">文字</span>
-            <span class="text_41">图片</span>
-            <span class="text_42">协同</span>
-          </div>
-          <span class="text_43">选择AI</span>
+          <div class="group_7 flex-col"></div>
         </div>
-        <div class="group_9 flex-col">
-          <span class="text_44">多种选择</span>
-          <div class="group_10 flex-col"><div class="group_11 flex-col"></div></div>
-        </div>
+        <div class="box_14 flex-co center-item"></div>
       </div>
-      <span class="text_45">
-        小马笔记支持多个主流大模型，你可以按任务自由选择:总结、翻译写作、问答，用最合适的&nbsp;AI，做最懂你的事
-      </span>
-      <div class="box_13 flex-col"></div>
-      <div class="box_14 flex-col"></div>
+      <div>
+        <div class="text-wrapper_9 center-item">
+          <span class="text_28">一起思维发散，</span>
+          <span class="text_29">打破页面限制</span>
+        </div>
+        <div style="height: 100px;"></div>
+        <div class="text-wrapper_10 flex-row justify-between center-item">
+          <span class="text_30">白板页面</span>
+          <span class="text_31">书写</span>
+          <span class="text_32">文字</span>
+          <span class="text_33">图片</span>
+          <span class="text_34">协同</span>
+        </div>
+        <div class="box_10 flex-col center-item"><div class="section_1 flex-col"></div></div>
+        <div style="height: 80px;"></div>
+        <div class="text_35 center-item">白板页面</div>
+        <div style="height: 30px;"></div>
+        <div class="text_36 center-item">手绘直线、箭头、方框圆形，自动识别为规范图形，助你轻松绘制结构图、流程图和草图。</div>
+        <div style="height: 50px;"></div>
+        <div class="box_11 flex-col center-item"></div>
+      </div>
+      
+      <div>
+        <div style="height: 150px;"></div>
+        <div class="box_12 flex-row center-item">
+          <div class="group_8 flex-col center-item">
+            <div class="text-wrapper_11 center-item">
+              <span class="text_37">AI&nbsp;也能个性化</span>
+              <span class="text_38">，自选模型，更懂你</span>
+            </div>
+            <div class="text-wrapper_12 flex-row justify-between center-item">
+              <span class="text_38">多种选择</span>
+              <span class="text_39">书写</span>
+              <span class="text_40">文字</span>
+              <span class="text_41">图片</span>
+              <span class="text_42">协同</span>
+            </div>
+          </div>
+          <div class="group_9 flex-col">
+            <div class="group_10 flex-col center-item"><div class="group_11 flex-col"></div></div>
+          </div>
+        </div>
+        <!-- <div style="height: 40px;"></div> -->
+        <div class="text_43 center-item">选择AI</div>
+        <div style="height: 40px;"></div>
+        <span class="text_45 center-item">
+          小马笔记支持多个主流大模型，你可以按任务自由选择:总结、翻译写作、问答，用最合适的&nbsp;AI，做最懂你的事
+        </span>
+        <div class="box_13 flex-col"></div>
+      </div>
+      
+      
+      
+
+      
     </div>
     <div class="box_15 flex-col">
-      <div class="text-wrapper_13">
+      <div style="height: 170px;"></div>
+      <div class="text-wrapper_13 center-item">
         <span class="text_46">专为</span>
         <span class="text_47">重视隐私</span>
         <span class="text_48">的人打造</span>
       </div>
-      <div class="list_1 flex-row">
+      <div style="height:100px;"></div>
+      <div class="list_1 flex-row center-item">
         <div class="list-items_1 flex-col" v-for="(item, index) in loopData0" :key="index">
           <img class="image_4" referrerpolicy="no-referrer" :src="item.lanhuimage0" />
           <div class="text-group_4 flex-col justify-between">
@@ -175,11 +216,13 @@
           ]
         </span>
       </div>
-      <div class="text-wrapper_16">
+      <div style="height: 170px;"></div>
+      <div class="text-wrapper_16 center-item">
         <span class="text_53">全平台</span>
         <span class="text_54">同步，即可下载</span>
       </div>
-      <div class="block_1 flex-row justify-between">
+      <div style="height: 80px;"></div>
+      <div class="block_1 flex-row justify-between center-item">
         <div class="image-text_3 flex-row justify-between">
           <img
             class="label_3"

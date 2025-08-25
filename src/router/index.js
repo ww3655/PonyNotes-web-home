@@ -11,10 +11,10 @@ Vue.use(VueRouter)
 const routes = [
     {
     path: '/',
-    redirect: "/lanhu_dingjia"
+    redirect: "/index"
   },
   {
-    path: '/lanhu_dingjia',
+    path: '/prise',
     name: 'lanhu_dingjia',
     component: lanhu_dingjia
   },
@@ -34,14 +34,14 @@ const routes = [
     component: lanhu_zhanghaoguanlidanchuang
   },
   {
-    path: '/lanhu_shouye',
+    path: '/index',
     name: 'lanhu_shouye',
     component: lanhu_shouye
   }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  // mode: 'history',
   base: process.env.BASE_URL,
   routes
 })
